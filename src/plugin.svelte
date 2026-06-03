@@ -128,10 +128,7 @@
         // from a previous open, or may have been added before navigation)
         visible = gsiIsActive();
         opacity = _opacity;
-        if (visible) {
-            // Layer already on map — nothing to do
-        } else {
-            // Auto-show on first open
+        if (!visible) {
             visible = true;
             try {
                 gsiAdd();

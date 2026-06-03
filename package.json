@@ -1,7 +1,7 @@
 {
     "name": "windy-plugin-gsi-bvmap",
     "version": "0.1.0",
-    "description": "Windy plugin that adds Japan's GSI 最適化ベクトルタイル as a map layer",
+    "description": "Windy plugin that overlays Japan's GSI pale topo map at high zoom",
     "main": "dist/plugin.min.js",
     "type": "module",
     "scripts": {
@@ -9,11 +9,17 @@
         "start": "rollup -w -c",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "keywords": ["windy", "windy.com", "plugins", "gsi", "japan", "vector-tiles"],
-    "author": "kakugirai@gmail.com",
+    "keywords": [
+        "windy",
+        "windy.com",
+        "plugins",
+        "gsi",
+        "japan",
+        "topo-map"
+    ],
+    "author": "kakugirai",
     "license": "MIT",
     "dependencies": {
-        "@windycom/plugin-devtools": "^3.0.3",
-        "pmtiles": "^3.2.0"
+        "@windycom/plugin-devtools": "^3.0.3"
     }
 }
