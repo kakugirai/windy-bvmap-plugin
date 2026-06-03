@@ -57,6 +57,10 @@ The GitHub Actions workflow `.github/workflows/publish-plugin.yml` handles publi
 
 Requires a `WINDY_API_KEY` repository secret from [api.windy.com/keys](https://api.windy.com/keys).
 
+## Todo
+
+- [ ] **Vector tile support** — GSI provides the same map as optimized vector tiles in both PBF (`/xyz/optimal_bvmap-v1/{z}/{x}/{y}.pbf`) and PMTiles (`optimal_bvmap-v1.pmtiles`) formats, which would give sharper rendering at all zoom levels. However, Windy's LeafletGL is a stripped-down fork of MapLibre GL JS that does not support `type: "vector"` sources added externally. May investigate a workaround or alternative approach in the future.
+
 ## Attribution
 
 Map data © [国土地理院](https://www.gsi.go.jp/)
