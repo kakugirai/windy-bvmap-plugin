@@ -25,7 +25,7 @@ https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png
 Load the plugin in [Windy developer mode](https://www.windy.com/developer-mode):
 
 ```
-https://windy-plugins.com/5026988/windy-plugin-gsi-bvmap/0.1.0/plugin.min.js
+https://windy-plugins.com/5026988/windy-plugin-gsi-bvmap/0.2.0/plugin.min.js
 ```
 
 Then navigate to `https://www.windy.com/gsi-bvmap` to open the plugin panel.
