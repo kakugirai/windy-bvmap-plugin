@@ -2,6 +2,8 @@
 
 A [Windy.com](https://www.windy.com) plugin that overlays Japan's **国土地理院 (GSI) 淡色地図** (pale topographic map) at high zoom levels, replacing the default outdoor map with accurate Japanese terrain data.
 
+![Screenshot](src/screenshot.jpg)
+
 ## Features
 
 - Shows the GSI pale topo map at **zoom ≥ 10**, covering the default outdoor map
