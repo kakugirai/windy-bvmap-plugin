@@ -1,6 +1,6 @@
 {
     "name": "windy-plugin-gsi-bvmap",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "description": "Windy plugin that overlays Japan's GSI pale topo map at high zoom",
     "main": "dist/plugin.min.js",
     "type": "module",

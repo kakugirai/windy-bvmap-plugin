@@ -2,7 +2,7 @@ import type { ExternalPluginConfig } from '@windy/interfaces';
 
 const config: ExternalPluginConfig = {
     name: 'windy-plugin-gsi-bvmap',
-    version: '0.1.0',
+    version: '0.2.0',
     icon: '🗾',
     title: '地理院淡色地図レイヤー',
     description: '国土地理院の淡色地図をレイヤーとして表示します。',
